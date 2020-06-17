@@ -31,7 +31,8 @@
 		2EC76697249A2240008A16F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC76696249A2240008A16F3 /* CoreData.framework */; };
 		2EC76699249A2246008A16F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC76698249A2246008A16F3 /* MapKit.framework */; };
 		2EC7669B249A224C008A16F3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC7669A249A224C008A16F3 /* WebKit.framework */; };
-		2EC7669D249A22B0008A16F3 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7669C249A22B0008A16F3 /* Object.swift */; };
+		2EC7669D249A22B0008A16F3 /* AdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7669C249A22B0008A16F3 /* AdLoader.swift */; };
+		2EC7669F249A2ABB008A16F3 /* PokktSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC7669E249A2ABB008A16F3 /* PokktSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +63,8 @@
 		2EC76696249A2240008A16F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2EC76698249A2246008A16F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2EC7669A249A224C008A16F3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		2EC7669C249A22B0008A16F3 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		2EC7669C249A22B0008A16F3 /* AdLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdLoader.swift; sourceTree = "<group>"; };
+		2EC7669E249A2ABB008A16F3 /* PokktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PokktSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				2EC7668F249A2223008A16F3 /* MediaPlayer.framework in Frameworks */,
 				2EC7668D249A2216008A16F3 /* SystemConfiguration.framework in Frameworks */,
 				2EC7668B249A2211008A16F3 /* UIKit.framework in Frameworks */,
+				2EC7669F249A2ABB008A16F3 /* PokktSDK.framework in Frameworks */,
 				2EC76689249A2208008A16F3 /* CoreTelephony.framework in Frameworks */,
 				2EC76687249A2203008A16F3 /* AdSupport.framework in Frameworks */,
 				2EC76685249A21F9008A16F3 /* CoreGraphics.framework in Frameworks */,
@@ -113,11 +116,12 @@
 		2EC7665E249A1CFF008A16F3 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2EC7669E249A2ABB008A16F3 /* PokktSDK.framework */,
 				2EC7665F249A1CFF008A16F3 /* AppDelegate.swift */,
 				2EC76678249A1EFC008A16F3 /* SwiftDemo-Bridging-Header.h */,
 				2EC76661249A1CFF008A16F3 /* SceneDelegate.swift */,
 				2EC76663249A1CFF008A16F3 /* ViewController.swift */,
-				2EC7669C249A22B0008A16F3 /* Object.swift */,
+				2EC7669C249A22B0008A16F3 /* AdLoader.swift */,
 				2EC76665249A1CFF008A16F3 /* Main.storyboard */,
 				2EC7666B249A1D01008A16F3 /* Assets.xcassets */,
 				2EC7666D249A1D01008A16F3 /* LaunchScreen.storyboard */,
@@ -222,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EC7669D249A22B0008A16F3 /* Object.swift in Sources */,
+				2EC7669D249A22B0008A16F3 /* AdLoader.swift in Sources */,
 				2EC7666A249A1CFF008A16F3 /* SwiftDemo.xcdatamodeld in Sources */,
 				2EC76664249A1CFF008A16F3 /* ViewController.swift in Sources */,
 				2EC76660249A1CFF008A16F3 /* AppDelegate.swift in Sources */,
